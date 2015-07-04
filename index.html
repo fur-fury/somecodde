@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+.tab__title {
+display: inline-block;
+list-style: none;
+}
+.tab__title--active {
+background-color: #ff0;
+}
+.tab__content {
+display: none;
+}
+.tab__content--active {
+display: block;
+}
+</style>
+</head>
+<body>
+	<div class="tab">
+		<ul class="tab__titles">
+			<li class="tab__title tab__title--active"><a href="#tab_01">Lorem ipsum 1.</a></li>
+			<li class="tab__title"><a href="#tab_02">Rem, quisquam 2.</a></li>
+			<li class="tab__title"><a href="#tab_03">Velit, sunt 3.</a></li>
+			<li class="tab__title"><a href="#tab_04">Quia, magni 4?</a></li>
+		</ul>
+		<div class="tab__contents">
+			<div class="tab__content tab__content--active" id="tab_01">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cumque.</div>
+			<div class="tab__content" id="tab_02">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, veniam?</div>
+			<div class="tab__content" id="tab_03">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, neque.</div>
+			<div class="tab__content" id="tab_04">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, neque.</div>
+		</div>
+	</div>
+
+	<div class="tab">
+		<ul class="tab__titles">
+			<li class="tab__title tab__title--active"><a href="#tab_11">Lorem ipsum 1.</a></li>
+			<li class="tab__title"><a href="#tab_12">Rem, quisquam 2.</a></li>
+			
+		</ul>
+		<div class="tab__contents">
+			<div class="tab__content tab__content--active" id="tab_11">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, cumque.</div>
+			<div class="tab__content" id="tab_12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, veniam?</div>
+			
+		</div>
+	</div>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
